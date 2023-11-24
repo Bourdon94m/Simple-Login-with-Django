@@ -56,7 +56,7 @@ ROOT_URLCONF = 'portfolio.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r"C:\Users\mattl\OneDrive\Bureau\Login\src\login\templates", r"C:\Users\mattl\OneDrive\Bureau\Login\src\pages\templates",r"C:\Users\mattl\OneDrive\Bureau\Login\src\pages\templates\for_portfolio"],
+        'DIRS': [r"C:\Users\mattl\OneDrive\Bureau\Login\src\login\templates", r"C:\Users\mattl\OneDrive\Bureau\Login\src\pages\templates",r"C:\Users\mattl\OneDrive\Bureau\Login\src\pages\templates\for_portfolio", r"login/templates/auth"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
