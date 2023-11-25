@@ -19,7 +19,9 @@ def login_user(request):
         if user is not None:
             login(request, user)
             # Redirect to a success page.
-            return redirect('home/')
+            return redirect('admin/')
         else:
             # Return an 'invalid login' error message.
             return('')
+    else:
+        return render(request, 'index.html')

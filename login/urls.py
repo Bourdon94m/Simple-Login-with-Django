@@ -16,8 +16,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from .views import index
+from .views import index, login_user
 
 urlpatterns = [
-    path('', index),
+    path('', login_user, name="login"),
 ]
